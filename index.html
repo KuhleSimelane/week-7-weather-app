@@ -3,39 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
-  <header>
-    <form>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="Submit" value="Submit" />
-    </form>
-  </header>
-  <main>
-    <div>
-      <h1>Paris</h1>
-      <p>
-        Tuesday 14:49, Scattered clouds
-        <br />
-        Humidity: 66%, Wind: 3.3km/h
-      </p>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="Submit" value="Submit" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, Scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.3km/h
+          </p>
+        </div>
+        <div>🌤️12℃</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/KuhleSimelane" target="_blank">
+          Kuhle Simelane</a
+        >, is
+        <a
+          href="https://github.com/KuhleSimelane/week-7-weather-app"
+          target="_blank"
+          >on Github</a
+        >
+        and is
+        <a href="https://weather-app-week-7-kpm.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
     </div>
-    <div>🌤️12℃</div>
-  </main>
-  <footer>
-    This project was coded by
-    <a href="https://github.com/KuhleSimelane" target="_blank">
-      Kuhle Simelane</a
-    >, is
-    <a
-      href="https://github.com/KuhleSimelane/week-7-weather-app"
-      target="_blank"
-      >on Github</a
-    >
-    and is
-    <a href="https://weather-app-week-7-kpm.netlify.app/" target="_blank">
-      hosted on Netlify</a
-    >
-  </footer>
-  <body></body>
+  </body>
 </html>
